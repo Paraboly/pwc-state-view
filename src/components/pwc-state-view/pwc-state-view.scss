@@ -1,0 +1,32 @@
+.pwc-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pwc-image-style {
+  width: 250px;
+  height: 250px;
+}
+
+.text-container {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.pwc-title-style {
+  color: #9ab5d4;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+}
+
+.pwc-subtitle-style {
+  color: #9ab5d4;
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}

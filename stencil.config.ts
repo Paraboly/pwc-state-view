@@ -1,5 +1,6 @@
 import { Config } from "@stencil/core";
 import { sass } from "@stencil/sass";
+import image from "@rollup/plugin-image";
 
 export const config: Config = {
   namespace: "project-name",
@@ -16,5 +17,5 @@ export const config: Config = {
       serviceWorker: null // disable service workers
     }
   ],
-  plugins: [sass()]
+  plugins: [sass(), image()]
 };

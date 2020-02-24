@@ -46,6 +46,7 @@
     "clean-and-install": "npm run clean && npm i"
   },
   "devDependencies": {
+    "@rollup/plugin-image": "^2.0.4",
     "@stencil/core": "^1.8.5",
     "@stencil/router": "^1.0.1",
     "@stencil/sass": "^1.1.1",

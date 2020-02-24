@@ -10,53 +10,41 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface ComponentName {
+  interface PwcStateView {
     /**
-    * The first name
+    * Main Image Source
     */
-    'first': string;
-    /**
-    * The last name
-    */
-    'last': string;
-    /**
-    * The middle name
-    */
-    'middle': string;
+    'source': any;
+    'subtitle': string;
+    'title': string;
   }
 }
 
 declare global {
 
 
-  interface HTMLComponentNameElement extends Components.ComponentName, HTMLStencilElement {}
-  var HTMLComponentNameElement: {
-    prototype: HTMLComponentNameElement;
-    new (): HTMLComponentNameElement;
+  interface HTMLPwcStateViewElement extends Components.PwcStateView, HTMLStencilElement {}
+  var HTMLPwcStateViewElement: {
+    prototype: HTMLPwcStateViewElement;
+    new (): HTMLPwcStateViewElement;
   };
   interface HTMLElementTagNameMap {
-    'component-name': HTMLComponentNameElement;
+    'pwc-state-view': HTMLPwcStateViewElement;
   }
 }
 
 declare namespace LocalJSX {
-  interface ComponentName {
+  interface PwcStateView {
     /**
-    * The first name
+    * Main Image Source
     */
-    'first'?: string;
-    /**
-    * The last name
-    */
-    'last'?: string;
-    /**
-    * The middle name
-    */
-    'middle'?: string;
+    'source'?: any;
+    'subtitle'?: string;
+    'title'?: string;
   }
 
   interface IntrinsicElements {
-    'component-name': ComponentName;
+    'pwc-state-view': PwcStateView;
   }
 }
 
@@ -66,7 +54,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
   export namespace JSX {
     interface IntrinsicElements {
-      'component-name': LocalJSX.ComponentName & JSXBase.HTMLAttributes<HTMLComponentNameElement>;
+      'pwc-state-view': LocalJSX.PwcStateView & JSXBase.HTMLAttributes<HTMLPwcStateViewElement>;
     }
   }
 }
