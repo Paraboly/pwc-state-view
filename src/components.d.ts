@@ -15,8 +15,8 @@ export namespace Components {
     * Main Image Source
     */
     'source': any;
-    'subtitle': string;
-    'title': string;
+    'stateSubtitle': string;
+    'stateTitle': string;
   }
 }
 
@@ -39,8 +39,8 @@ declare namespace LocalJSX {
     * Main Image Source
     */
     'source'?: any;
-    'subtitle'?: string;
-    'title'?: string;
+    'stateSubtitle'?: string;
+    'stateTitle'?: string;
   }
 
   interface IntrinsicElements {

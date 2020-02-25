@@ -1,7 +1,7 @@
 {
-  "name": "@paraboly/project-name",
+  "name": "@paraboly/pwc-state-view",
   "version": "0.0.1",
-  "description": "Template repository for Paraboly Web Component Libraries",
+  "description": "Customizable Easy State View with StencilJS by Paraboly",
   "keywords": [
     "paraboly",
     "stencil",
@@ -12,9 +12,9 @@
     "frontend"
   ],
   "homepage": "https://www.paraboly.com",
-  "bugs": "https://github.com/Paraboly/project-name/issues",
-  "repository": "git@github.com:Paraboly/project-name.git",
-  "author": "Author (https://author.url.here/) <author@email.com>",
+  "bugs": "https://github.com/Paraboly/pwc-state-view/issues",
+  "repository": "git@github.com:Paraboly/pwc-state-view.git",
+  "author": "FreakyCoder <kurayogun@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -23,7 +23,7 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/project-name/project-name.js",
+  "unpkg": "dist/pwc-state-view/pwc-state-view.js",
   "files": [
     "dist/",
     "loader/"

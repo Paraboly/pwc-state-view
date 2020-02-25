@@ -25,11 +25,11 @@
 ```html
 <script
   type="module"
-  src="https://unpkg.com/@paraboly/project-name@latest/dist/project-name/project-name.esm.js"
+  src="https://unpkg.com/@paraboly/pwc-state-view@latest/dist/pwc-state-view/pwc-state-view.esm.js"
 ></script>
 <script
   nomodule
-  src="https://unpkg.com/@paraboly/project-name@latest/dist/project-name/project-name.js"
+  src="https://unpkg.com/@paraboly/pwc-state-view@latest/dist/pwc-state-view/pwc-state-view.js"
 ></script>
 ```
 

@@ -3,7 +3,7 @@ import { sass } from "@stencil/sass";
 import image from "@rollup/plugin-image";
 
 export const config: Config = {
-  namespace: "project-name",
+  namespace: "pwc-state-view",
   outputTargets: [
     {
       type: "dist",

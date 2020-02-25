@@ -11,10 +11,8 @@ export class PWCStateView {
    * Main Image Source
    */
   @Prop() source: any = placeholder;
-
-  @Prop() title: string = "Time to Chill";
-
-  @Prop() subtitle: string =
+  @Prop() stateTitle: string = "Time to Chill";
+  @Prop() stateSubtitle: string =
     "It's time for relaxation and chill. Release the stress and get a better day and a full peaceful for the night. Let us guide you in this adventure";
 
   render() {
@@ -22,8 +20,11 @@ export class PWCStateView {
       <div class="pwc-container">
         <img class="pwc-image-style" src={this.source} />
         <div class="text-container">
-          <span class="pwc-title-style">{this.title}</span>
-          <span class="pwc-subtitle-style">{this.subtitle}</span>
+          <span class="pwc-title-style">{this.stateTitle}</span>
+          <span class="pwc-subtitle-style">{this.stateSubtitle}</span>
+        </div>
+        <div class="text-container">
+          <slot></slot>
         </div>
       </div>
     );
